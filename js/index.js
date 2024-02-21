@@ -1,0 +1,1 @@
+const swiper=new Swiper(".swiper",{direction:"horizontal",loop:!0,pagination:{el:".swiper-pagination"},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},keyboard:!0});let x=document.body.querySelector(".swiper-button-next");function next(e){console.log(e)}x.addEventListener("click",next);
